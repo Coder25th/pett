@@ -2,7 +2,7 @@
 
 import React, { useState } from "react"
 import Image from "next/image"
-import Modal from "./Modal"
+import Modal from "@/components/Adopt/Modal"
 import { FaLocationDot } from "react-icons/fa6"
 
 export default function PetItemClient({ pet }) {

@@ -1,7 +1,7 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
 
-const PetInfoClient = dynamic(() => import('../components/PetInfoClient'), { ssr: false })
+const PetInfoClient = dynamic(() => import('@/components/PetInfoClient'), { ssr: false })
 
 export default function PetInfo() {
   return (
